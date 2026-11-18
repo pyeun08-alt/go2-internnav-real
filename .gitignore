@@ -1,0 +1,49 @@
+# Runtime, build and editor artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.cache/
+build/
+dist/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.log
+*.pid
+
+# Local credentials (keep templates)
+.env
+.env.*
+!.env.example
+!.env.sample
+id_rsa
+id_ed25519
+
+# Model weights are distributed separately; keep source/config/tokenizer resources
+*.safetensors
+*.pth
+*.pt
+*.ckpt
+pytorch_model*.bin
+/pc/InternNav/checkpoints/
+
+# Generated recordings and experiment outputs
+/pc/InternNav/test_data/
+/pc/InternNav/output/
+/pc/InternNav/logs/
+/pc/InternNav/logs_eval/
+/pc/InternNav/wandb/
+/robot/client/test_data/
+/robot/client/output/
+
+# Local collection and verification records, not needed by users
+/SOURCE_MANIFEST.json
+/검증결과.md
+/validation/

@@ -1,0 +1,7 @@
+**/__pycache__
+**/.git
+**/*.pyc
+InternNav/checkpoints
+InternNav/test_data
+InternNav/logs
+InternNav/logs_eval
