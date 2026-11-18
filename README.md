@@ -17,7 +17,7 @@
 
 ## 2. 코드 받기
 
-PC 호스트와 로봇 Jetson에서 각각 실행합니다. 비공개 저장소에 접근하려면 권한이 있는 GitHub 계정으로 먼저 인증합니다.
+PC 호스트와 로봇 Jetson에서 각각 실행합니다.
 
 ```bash
 REPO_URL="https://github.com/pyeun08-alt/go2-internnav-real.git"
