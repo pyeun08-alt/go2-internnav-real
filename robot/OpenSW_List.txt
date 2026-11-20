@@ -1,0 +1,16 @@
+numpy==1.17.4
+Pillow==7.0.0
+requests==2.22.0
+casadi==3.7.2
+scipy==1.3.3
+pyrealsense2==2.54.2.5684
+cyclonedds==0.10.2
+unitree_sdk2py==1.0.1
+
+# ROS 2 Foxy (Debian packages)
+ros-foxy-cv-bridge==3.0.7-1focal.20230527.055710
+ros-foxy-geometry-msgs==2.0.5-1focal.20230527.054419
+ros-foxy-message-filters==3.2.7-1focal.20230606.034003
+ros-foxy-nav-msgs==2.0.5-1focal.20230527.054845
+ros-foxy-rclpy==1.0.13-1focal.20230527.070432
+ros-foxy-sensor-msgs==2.0.5-1focal.20230527.055054

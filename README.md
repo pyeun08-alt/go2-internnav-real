@@ -63,3 +63,7 @@ pc/
 - [Unitree SDK2 Python](https://github.com/unitreerobotics/unitree_sdk2_python): [LICENSE](robot/vendor/unitree_sdk2_python/LICENSE)
 
 각 외부 소스의 라이선스·출처 파일은 해당 디렉터리에 포함되어 있습니다. 학습·시뮬레이션·예제는 제외되어 있으며, 실로봇 실행 절차는 위 장비별 README를 기준으로 합니다.
+
+자체 작성 코드에는 [MIT 라이선스](LICENSE)가 적용됩니다. 포함된 NextDiT 및 DINOv2 소스의 Apache-2.0 고지는 각 파일에 있으며 [라이선스 전문](pc/InternNav/LICENSE-Apache-2.0.txt)을 제공합니다.
+
+장비별 사용 패키지와 버전: [추론 PC](pc/OpenSW_List.txt) · [Go2 Jetson](robot/OpenSW_List.txt).

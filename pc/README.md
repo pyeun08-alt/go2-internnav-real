@@ -127,3 +127,5 @@ ssh -NT \
 정상 연결되면 출력 없이 대기합니다. 이 터미널을 유지한 상태로 [로봇 안내 4절](../robot/README.md#4-온보드-모듈과-클라이언트-실행)을 진행합니다. 컨테이너는 host 네트워크를 사용하므로 SSH 터널은 PC 호스트에서 열 수 있습니다.
 
 `remote port forwarding failed for listen port 5801`이면 [로봇 안내의 포트 충돌 처리](../robot/README.md#5801-포트-충돌)를 수행하고 다시 연결합니다.
+
+사용한 오픈소스 패키지와 버전은 [OpenSW_List.txt](OpenSW_List.txt)에 정리했습니다.

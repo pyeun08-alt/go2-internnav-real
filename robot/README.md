@@ -169,3 +169,5 @@ sudo ss -H -ltnp 'sport = :5801' \
 | 카메라 영상 미수신 | D435i USB·전원과 중복 카메라 실행 확인 후 온보드 모듈 재실행 |
 | odometry 미수신·`skip planning` | 유선 포트·IP·ping, `ROBOT_IF`, 드라이버·브리지 출력 확인 |
 | 서버 추론 오류·시간 초과 | 클라이언트 종료 후 PC 서버 로그 확인. 오류 원인을 해결하고 서버·클라이언트를 새로 실행 |
+
+사용한 오픈소스 패키지와 버전은 [OpenSW_List.txt](OpenSW_List.txt)에 정리했습니다.
